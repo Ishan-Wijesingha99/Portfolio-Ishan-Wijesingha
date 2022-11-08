@@ -77,7 +77,7 @@ export const Portfolio = function() {
 
                                             <a href={element.demoURL} target="_blank">
                                                 <button
-                                                className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer duration-200 hover:scale-105 sm:mb-6"
+                                                className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer duration-200 hover:scale-110 sm:mb-6"
                                                 >
                                                     Demo
                                                 </button>
@@ -85,7 +85,7 @@ export const Portfolio = function() {
                                                 
                                             <a href={element.codeURL} target="_blank">
                                                 <button
-                                                className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer duration-200 hover:scale-105 sm:mb-6"
+                                                className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer duration-200 hover:scale-110 sm:mb-6"
                                                 >
                                                     Code
                                                 </button>

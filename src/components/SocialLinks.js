@@ -43,7 +43,7 @@ export const SocialLinks = function() {
                     Resume <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href: '/RESUME-ISHAN-WIJESINGHA.pdf',
+            href: '/ISHAN-WIJESINGHA-RESUME.pdf',
             style: 'rounded-br-md',
             download: true
         }
