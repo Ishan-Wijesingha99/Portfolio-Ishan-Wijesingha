@@ -12,12 +12,13 @@ export const About = function() {
                 </div>
 
                 <p className="text-xl mt-12">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem tempore, omnis numquam veritatis necessitatibus fugiat nemo magnam quae voluptas optio hic in, corporis, nulla impedit voluptate dolores tempora. Quam animi, maxime impedit sed sit est voluptatibus excepturi dicta odio, totam omnis nostrum, quisquam aliquam veniam aliquid voluptatem nisi. Libero, itaque?
+                    I am full stack developer that is highly experienced in JavaScript and React JS. I've created multiple high-quality full stack applications using the MERN stack. I can work end-to-end, alone or in teams to create a product that people will love.
                 </p>
                 <br />
 
                 <p className="text-xl">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem tempore, omnis numquam veritatis necessitatibus fugiat nemo magnam quae voluptas optio hic in, corporis, nulla impedit voluptate dolores tempora. Quam animi, maxime impedit sed sit est voluptatibus excepturi dicta odio, totam omnis nostrum, quisquam aliquam veniam aliquid voluptatem nisi. Libero, itaque?
+                    I have an utter devotion to learning and remaining curious. I love incrementally improving my skills one day at a time. If I do not know something, I will not rest until I have mastered it.
+                    I've used many technologies, many of which are listed below, but I have plenty of passion to learn any technology I must.
                 </p>
             </div>
         </div>
