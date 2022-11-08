@@ -14,29 +14,40 @@ export const Portfolio = function() {
         {
             id: 1,
             title: 'React Weather App',
-            src: reactWeatherAppImg
+            src: reactWeatherAppImg,
+            demoURL: 'https://ishan-wijesingha99.github.io/React-Weather-App/',
+            codeURL: 'https://github.com/Ishan-Wijesingha99/React-Weather-App'
         },
         {
             id: 2,
             title: 'A Game of Chance',
-            src: aGameOfChanceImg
+            src: aGameOfChanceImg,
+            demoURL: 'https://ishan-wijesingha99.github.io/A-Game-Of-Chance/',
+            codeURL: 'https://github.com/Ishan-Wijesingha99/A-Game-Of-Chance'
         },
         {
             id: 3,
             title: 'Movies and Music Database',
-            src: moviesAndMusicDatabaseImg
+            src: moviesAndMusicDatabaseImg,
+            demoURL: 'https://seangenge.github.io/m-mDB/',
+            codeURL: 'https://github.com/SeanGenge/m-mDB'
         },
         {
             id: 4,
             title: 'Random Password Generator',
-            src: randomPasswordGeneratorImg
+            src: randomPasswordGeneratorImg,
+            demoURL: 'https://ishan-wijesingha99.github.io/Random-Password-Generator/',
+            codeURL: 'https://github.com/Ishan-Wijesingha99/Random-Password-Generator'
         },
         {
             id: 5,
             title: 'Hourly Planner for Employees',
-            src: hourlyPlannerForEmployeesImg
+            src: hourlyPlannerForEmployeesImg,
+            demoURL: 'https://ishan-wijesingha99.github.io/Hourly-Planner-For-Employees/',
+            codeURL: 'https://github.com/Ishan-Wijesingha99/Hourly-Planner-For-Employees'
         },
     ]
+
 
 
     return (
@@ -61,16 +72,23 @@ export const Portfolio = function() {
                                     />
 
                                     <div className="flex items-center justify-around pt-6 pb-6">
-                                        <button
-                                        className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer duration-200 hover:scale-105 sm:mb-6"
-                                        >
-                                            Demo
-                                        </button>
-                                        <button
-                                        className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer duration-200 hover:scale-105 sm:mb-6"
-                                        >
-                                            Code
-                                        </button>
+
+                                        <a href={element.demoURL} target="_blank">
+                                            <button
+                                            className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer duration-200 hover:scale-105 sm:mb-6"
+                                            >
+                                                Demo
+                                            </button>
+                                        </a>
+                                            
+                                        <a href={element.codeURL} target="_blank">
+                                            <button
+                                            className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer duration-200 hover:scale-105 sm:mb-6"
+                                            >
+                                                Code
+                                            </button>
+                                        </a>
+                                       
                                     </div>
                                 </div>
                             )
