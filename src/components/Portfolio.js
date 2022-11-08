@@ -1,11 +1,10 @@
 
 import React from "react";
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import reactWeatherAppImg from '../assets/portfolio/react-weather-app.png'
+import moviesAndMusicDatabaseImg from '../assets/portfolio/movies-and-music-database.png'
+import aGameOfChanceImg from '../assets/portfolio/a-game-of-chance.png'
+import randomPasswordGeneratorImg from '../assets/portfolio/random-password-generator.png'
+import hourlyPlannerForEmployeesImg from '../assets/portfolio/hourly-planner-for-employees.png'
 
 
 
@@ -14,28 +13,29 @@ export const Portfolio = function() {
     const portfolios = [
         {
             id: 1,
-            src: arrayDestruct
+            title: 'React Weather App',
+            src: reactWeatherAppImg
         },
         {
             id: 2,
-            src: reactParallax
+            title: 'A Game of Chance',
+            src: aGameOfChanceImg
         },
         {
             id: 3,
-            src: navbar
+            title: 'Movies and Music Database',
+            src: moviesAndMusicDatabaseImg
         },
         {
             id: 4,
-            src: reactSmooth
+            title: 'Random Password Generator',
+            src: randomPasswordGeneratorImg
         },
         {
             id: 5,
-            src: installNode
+            title: 'Hourly Planner for Employees',
+            src: hourlyPlannerForEmployeesImg
         },
-        {
-            id: 6,
-            src: reactWeather
-        }
     ]
 
 
@@ -49,23 +49,25 @@ export const Portfolio = function() {
 
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
 
-                    {portfolios.map(element => {
+                    {portfolios.map((element, i) => {
                         return (
-                                <div key={element.id} className="shadow-md shadow-gray-600 rounded-lg">
+                                <div key={element.id} className="shadow-md shadow-gray-600 rounded-lg pt-2">
+                                    <p className="text-center my-4 mx-2 font-bold tracking-wider">{element.title}</p>
+
                                     <img
                                         src={element.src}
-                                        alt=""
-                                        className="rounded-md duration-200 hover:scale-105"
+                                        alt={`project ${i}`}
+                                        className="h-1/2 object-fill mx-auto w-full"
                                     />
 
-                                    <div className="flex items-center justify-center">
+                                    <div className="flex items-center justify-around pt-6 pb-6">
                                         <button
-                                        className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                                        className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer duration-200 hover:scale-105 sm:mb-6"
                                         >
                                             Demo
                                         </button>
                                         <button
-                                        className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                                        className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer duration-200 hover:scale-105 sm:mb-6"
                                         >
                                             Code
                                         </button>
