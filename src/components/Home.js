@@ -10,7 +10,7 @@ export const Home = function() {
     return (
         <div name="home" className="py-32 w-full bg-gradient-to-b from-black via-black to-gray-800 text-white">
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row pt-12">
-                <div className="flex flex-col justify-center h-full mr-16">
+                <div className="flex flex-col justify-center h-full mx-4">
                     <h2 className="text-4xl sm:text-7xl font-bold text-white">I'm a Full Stack Developer</h2>
                     <p className="text-gray-500 py-4 max-w-md text-justify">
                         When it comes to JavaScript and React JS, I'm your guy!
@@ -33,8 +33,8 @@ export const Home = function() {
                     </div>
                 </div>
 
-                <div>
-                    <img src={heroImage} alt="my profile pic" className="mt-16 rounded-2xl mx-auto w-2/3 md:w-4/5 md:mt-0"/>
+                <div className="md:ml-8">
+                    <img src={heroImage} alt="my profile pic" className="mt-16 rounded-2xl w-2/3 md:w-4/5 md:mt-0 mx-auto"/>
                 </div>
             </div>
         </div>

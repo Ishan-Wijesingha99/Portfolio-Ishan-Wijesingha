@@ -52,51 +52,55 @@ export const Portfolio = function() {
 
     return (
         <div name="portfolio" className="bg-gradient-to-b from-black to-gray-800 w-full text-white py-32">
-            <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-                <div className="pb-8">
-                    <p className="text-4xl font-bold inline border-b-4 border-gray-500">Portfolio</p>
-                    <p className="py-6">Check out some of my work</p>
-                </div>
+            <div className="flex flex-col items-center">
 
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+                <div className="max-w-screen-lg p-4 h-full mx-4">
+                    <div className="pb-8">
+                        <p className="text-4xl font-bold inline border-b-4 border-gray-500">Portfolio</p>
+                        <p className="py-6">Check out some of my work</p>
+                    </div>
 
-                    {portfolios.map((element, i) => {
-                        return (
-                                <div key={element.id} className="shadow-md shadow-gray-600 rounded-lg pt-2">
-                                    <p className="text-center my-4 mx-2 font-bold tracking-wider">{element.title}</p>
+                    <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
 
-                                    <img
-                                        src={element.src}
-                                        alt={`project ${i}`}
-                                        className="h-1/2 object-fill mx-auto w-full"
-                                    />
+                        {portfolios.map((element, i) => {
+                            return (
+                                    <div key={element.id} className="shadow-md shadow-gray-600 rounded-lg pt-2">
+                                        <p className="text-center my-4 mx-2 font-bold tracking-wider">{element.title}</p>
 
-                                    <div className="flex items-center justify-around pt-6 pb-6">
+                                        <img
+                                            src={element.src}
+                                            alt={`project ${i}`}
+                                            className="h-1/2 object-fill mx-auto w-full"
+                                        />
 
-                                        <a href={element.demoURL} target="_blank">
-                                            <button
-                                            className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer duration-200 hover:scale-105 sm:mb-6"
-                                            >
-                                                Demo
-                                            </button>
-                                        </a>
-                                            
-                                        <a href={element.codeURL} target="_blank">
-                                            <button
-                                            className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer duration-200 hover:scale-105 sm:mb-6"
-                                            >
-                                                Code
-                                            </button>
-                                        </a>
-                                       
+                                        <div className="flex items-center justify-around pt-6 pb-6">
+
+                                            <a href={element.demoURL} target="_blank">
+                                                <button
+                                                className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer duration-200 hover:scale-105 sm:mb-6"
+                                                >
+                                                    Demo
+                                                </button>
+                                            </a>
+                                                
+                                            <a href={element.codeURL} target="_blank">
+                                                <button
+                                                className="group text-white w-fit px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer duration-200 hover:scale-105 sm:mb-6"
+                                                >
+                                                    Code
+                                                </button>
+                                            </a>
+                                        
+                                        </div>
                                     </div>
-                                </div>
-                            )
-                        })
-                    }
-                    
+                                )
+                            })
+                        }
+                        
+                    </div>
+                
                 </div>
-            
+
             </div>
         </div>
     )
