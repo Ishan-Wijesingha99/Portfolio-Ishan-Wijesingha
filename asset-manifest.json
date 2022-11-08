@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Ishan-Wijesingha/static/css/main.42f34df5.css",
-    "main.js": "/Portfolio-Ishan-Wijesingha/static/js/main.e2ca8095.js",
+    "main.js": "/Portfolio-Ishan-Wijesingha/static/js/main.97504d04.js",
     "static/media/heroImage.jpg": "/Portfolio-Ishan-Wijesingha/static/media/heroImage.dacd69d6558070fda541.jpg",
     "static/media/reactParallax.jpg": "/Portfolio-Ishan-Wijesingha/static/media/reactParallax.6f0d02a0def925fc9d7f.jpg",
     "static/media/reactWeather.jpg": "/Portfolio-Ishan-Wijesingha/static/media/reactWeather.a1988356c4f5a620716e.jpg",
@@ -28,10 +28,10 @@
     "static/media/javascript.png": "/Portfolio-Ishan-Wijesingha/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio-Ishan-Wijesingha/index.html",
     "main.42f34df5.css.map": "/Portfolio-Ishan-Wijesingha/static/css/main.42f34df5.css.map",
-    "main.e2ca8095.js.map": "/Portfolio-Ishan-Wijesingha/static/js/main.e2ca8095.js.map"
+    "main.97504d04.js.map": "/Portfolio-Ishan-Wijesingha/static/js/main.97504d04.js.map"
   },
   "entrypoints": [
     "static/css/main.42f34df5.css",
-    "static/js/main.e2ca8095.js"
+    "static/js/main.97504d04.js"
   ]
 }
