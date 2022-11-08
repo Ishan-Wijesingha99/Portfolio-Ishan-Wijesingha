@@ -12,9 +12,9 @@ export const Home = function() {
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row pt-12">
                 <div className="flex flex-col justify-center h-full mr-16">
                     <h2 className="text-4xl sm:text-7xl font-bold text-white">I'm a Full Stack Developer</h2>
-                    <p className="text-gray-500 py-4 max-w-md">
-                        I have 8 years of experience in designing software.
-                        Currently, I love to work on web applications using technologies like React, Tailwind, Next JS and GraphQL.
+                    <p className="text-gray-500 py-4 max-w-md text-justify">
+                        When it comes to JavaScript and React JS, I'm your guy!
+                        I've dedicated myself to becoming an expert in all things React, check out my portfolio below and you can be the judge!
                     </p>
 
                     <div>
