@@ -61,33 +61,33 @@ export const Experience = function() {
         },
         {
             id: 5,
+            src: redux,
+            title: 'Redux',
+            style: 'shadow-violet-400'
+        },
+        {
+            id: 6,
             src: tailwind,
             title: 'Tailwind',
             style: 'shadow-sky-400'
         },
         {
-            id: 6,
+            id: 7,
             src: git,
             title: 'Git',
             style: 'shadow-red-600'
         },
         {
-            id: 7,
+            id: 8,
             src: github,
             title: 'GitHub',
             style: 'shadow-gray-500'
         },
         {
-            id: 8,
+            id: 9,
             src: node,
             title: 'Node',
             style: 'shadow-lime-300'
-        },
-        {
-            id: 9,
-            src: express,
-            title: 'Express',
-            style: 'shadow-zinc-600'
         },
         {
             id: 10,
@@ -97,112 +97,111 @@ export const Experience = function() {
         },
         {
             id: 11,
-            src: bootstrap,
-            title: 'Bootstrap',
-            style: 'shadow-purple-600'
-        },
-        {
-            id: 12,
-            src: jquery,
-            title: 'jQuery',
-            style: 'shadow-sky-700'
-        },
-        {
-            id: 13,
-            src: handlebars,
-            title: 'Handlebars',
-            style: 'shadow-yellow-800'
-        },
-        {
-            id: 14,
-            src: mysql,
-            title: 'MySQL',
-            style: 'shadow-cyan-500'
-        },
-        {
-            id: 15,
-            src: sequelize,
-            title: 'Sequelize',
-            style: 'shadow-blue-400'
-        },
-        {
-            id: 16,
-            src: jest,
-            title: 'Jest',
-            style: 'shadow-orange-700'
-        },
-        {
-            id: 17,
-            src: insomnia,
-            title: 'Insomnia',
-            style: 'shadow-violet-700'
-        },
-        {
-            id: 18,
-            src: postman,
-            title: 'Postman',
-            style: 'shadow-orange-600'
-        },
-        {
-            id: 19,
-            src: vscode,
-            title: 'Visual Studio Code',
-            style: 'shadow-sky-500'
-        },
-        {
-            id: 20,
-            src: materialize,
-            title: 'Materialize',
-            style: 'shadow-rose-300'
-        },
-        {
-            id: 21,
-            src: heroku,
-            title: 'Heroku',
-            style: 'shadow-violet-800'
-        },
-        {
-            id: 22,
-            src: figma,
-            title: 'Figma',
-            style: 'shadow-gray-600'
-        },
-        {
-            id: 23,
             src: mongoose,
             title: 'Mongoose',
             style: 'shadow-red-800'
         },
         {
-            id: 24,
-            src: redux,
-            title: 'Redux',
-            style: 'shadow-violet-400'
+            id: 12,
+            src: jest,
+            title: 'Jest',
+            style: 'shadow-orange-700'
         },
-        // we're up to changing the colour of this one
         {
-            id: 25,
+            id: 13,
+            src: bootstrap,
+            title: 'Bootstrap',
+            style: 'shadow-purple-600'
+        },
+        {
+            id: 14,
+            src: jquery,
+            title: 'jQuery',
+            style: 'shadow-sky-700'
+        },
+        {
+            id: 15,
+            src: graphql,
+            title: 'GraphQL',
+            style: 'shadow-pink-600'
+        },
+        {
+            id: 16,
+            src: apollo,
+            title: 'Apollo',
+            style: 'shadow-indigo-700'
+        },
+        {
+            id: 17,
             src: jwt,
             title: 'JSON Web Token',
-            style: 'shadow-red-800'
+            style: 'shadow-pink-600'
+        },
+        {
+            id: 18,
+            src: mysql,
+            title: 'MySQL',
+            style: 'shadow-cyan-500'
+        },
+        {
+            id: 19,
+            src: sequelize,
+            title: 'Sequelize',
+            style: 'shadow-blue-400'
+        },
+        {
+            id: 20,
+            src: heroku,
+            title: 'Heroku',
+            style: 'shadow-violet-800'
+        },
+        {
+            id: 21,
+            src: figma,
+            title: 'Figma',
+            style: 'shadow-gray-600'
+        },
+        {
+            id: 22,
+            src: express,
+            title: 'Express',
+            style: 'shadow-zinc-600'
+        },
+        {
+            id: 23,
+            src: webpack,
+            title: 'Webpack',
+            style: 'shadow-sky-300'
+        },
+        {
+            id: 24,
+            src: insomnia,
+            title: 'Insomnia',
+            style: 'shadow-violet-700'
+        },
+        {
+            id: 25,
+            src: vscode,
+            title: 'Visual Studio Code',
+            style: 'shadow-sky-500'
         },
         {
             id: 26,
-            src: graphql,
-            title: 'GraphQL',
-            style: 'shadow-red-800'
+            src: materialize,
+            title: 'Materialize',
+            style: 'shadow-rose-300'
         },
         {
             id: 27,
-            src: apollo,
-            title: 'Apollo',
-            style: 'shadow-red-800'
+            src: handlebars,
+            title: 'Handlebars',
+            style: 'shadow-yellow-800'
         },
         {
             id: 28,
-            src: webpack,
-            title: 'Webpack',
-            style: 'shadow-red-800'
+            src: postman,
+            title: 'Postman',
+            style: 'shadow-orange-600'
         },
     ]
 
