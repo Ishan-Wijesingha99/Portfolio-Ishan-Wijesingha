@@ -3,7 +3,7 @@ import React from "react";
 import {FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import resumeLink from '../assets/resume/ISHAN-WIJESINGHA-RESUME.pdf'
+import resumeLink from '../assets/resume/Ishan-Wijesingha-RESUME.pdf'
 
 
 
@@ -40,7 +40,7 @@ export const SocialLinks = function() {
     ]
 
 
-    
+
     return (
         <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
             <ul>
