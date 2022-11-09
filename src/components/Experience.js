@@ -24,6 +24,12 @@ import heroku from '../assets/heroku.png'
 import figma from '../assets/figma.png'
 import mongoose from '../assets/mongoose.png'
 
+import redux from '../assets/redux.png'
+import jwt from '../assets/jwt.png'
+import graphql from '../assets/graphql.png'
+import apollo from '../assets/apollo.png'
+import webpack from '../assets/webpack.png'
+
 
 
 export const Experience = function() {
@@ -165,6 +171,37 @@ export const Experience = function() {
             id: 23,
             src: mongoose,
             title: 'Mongoose',
+            style: 'shadow-red-800'
+        },
+        {
+            id: 24,
+            src: redux,
+            title: 'Redux',
+            style: 'shadow-violet-400'
+        },
+        // we're up to changing the colour of this one
+        {
+            id: 25,
+            src: jwt,
+            title: 'JSON Web Token',
+            style: 'shadow-red-800'
+        },
+        {
+            id: 26,
+            src: graphql,
+            title: 'GraphQL',
+            style: 'shadow-red-800'
+        },
+        {
+            id: 27,
+            src: apollo,
+            title: 'Apollo',
+            style: 'shadow-red-800'
+        },
+        {
+            id: 28,
+            src: webpack,
+            title: 'Webpack',
             style: 'shadow-red-800'
         },
     ]
