@@ -3,6 +3,7 @@ import React from "react";
 import {FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import resumeLink from '../assets/resume/ISHAN-WIJESINGHA-RESUME.pdf'
 
 
 
@@ -35,23 +36,15 @@ export const SocialLinks = function() {
                 </>
             ),
             href: 'mailto:ishanwijes@gmail.com',
-        },
-        {
-            id: 4,
-            child: (
-                <>
-                    Resume <BsFillPersonLinesFill size={30}/>
-                </>
-            ),
-            href: '/ISHAN-WIJESINGHA-RESUME.pdf',
-            style: 'rounded-br-md',
-            download: true
         }
     ]
 
+
+    
     return (
         <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
             <ul>
+
                 {links.map(element => {
                     return (
                         <li 
@@ -70,6 +63,23 @@ export const SocialLinks = function() {
                         </li>
                     )
                 })}
+
+                <li 
+                key="4"
+                className="flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 rounded-br-md"
+                >
+                    <a 
+                    href={resumeLink}
+                    className="flex justify-between items-center w-full text-white"
+                    target='_blank'
+                    rel="noreferrer"
+                    >
+                        <>
+                            Resume <BsFillPersonLinesFill size={30}/>
+                        </>
+                    </a>
+                </li>
+
             </ul>
         </div>
     )
