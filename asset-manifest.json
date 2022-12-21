@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio-Ishan-Wijesingha/static/css/main.8b2511bf.css",
-    "main.js": "/Portfolio-Ishan-Wijesingha/static/js/main.494a1417.js",
-    "static/media/Ishan-Wijesingha-RESUME.pdf": "/Portfolio-Ishan-Wijesingha/static/media/Ishan-Wijesingha-RESUME.6a10d8491c4837971333.pdf",
+    "main.css": "/Portfolio-Ishan-Wijesingha/static/css/main.e358828e.css",
+    "main.js": "/Portfolio-Ishan-Wijesingha/static/js/main.6ed23d70.js",
+    "static/media/Ishan-Wijesingha-RESUME.pdf": "/Portfolio-Ishan-Wijesingha/static/media/Ishan-Wijesingha-RESUME.0e7ef2751b35bb9714d5.pdf",
     "static/media/movies-and-music-database.png": "/Portfolio-Ishan-Wijesingha/static/media/movies-and-music-database.39ca44d7a7d61c527aa1.png",
     "static/media/heroImage.jpg": "/Portfolio-Ishan-Wijesingha/static/media/heroImage.dacd69d6558070fda541.jpg",
     "static/media/react-weather-app.png": "/Portfolio-Ishan-Wijesingha/static/media/react-weather-app.d0bf46bc74ad9c64c21d.png",
     "static/media/a-game-of-chance.png": "/Portfolio-Ishan-Wijesingha/static/media/a-game-of-chance.c157a150c1fd17443234.png",
+    "static/media/music-monkey.png": "/Portfolio-Ishan-Wijesingha/static/media/music-monkey.b86f46cee7ece339740e.png",
+    "static/media/momentjs.png": "/Portfolio-Ishan-Wijesingha/static/media/momentjs.1d00b319462ab79629ab.png",
     "static/media/vscode.png": "/Portfolio-Ishan-Wijesingha/static/media/vscode.19edc3fbac1c451f289d.png",
     "static/media/graphql.png": "/Portfolio-Ishan-Wijesingha/static/media/graphql.fc6b9451733c620ceb86.png",
     "static/media/react.png": "/Portfolio-Ishan-Wijesingha/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -26,17 +28,19 @@
     "static/media/css.png": "/Portfolio-Ishan-Wijesingha/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/jquery.png": "/Portfolio-Ishan-Wijesingha/static/media/jquery.20cb5b8b93c88f414896.png",
     "static/media/postman.png": "/Portfolio-Ishan-Wijesingha/static/media/postman.3ac4d7844e6d9a8023da.png",
+    "static/media/ponder-social-media-app.png": "/Portfolio-Ishan-Wijesingha/static/media/ponder-social-media-app.868380bd82b9d50cd208.png",
     "static/media/redux.png": "/Portfolio-Ishan-Wijesingha/static/media/redux.b3b939c66aecf7d53967.png",
+    "static/media/rapidapi.png": "/Portfolio-Ishan-Wijesingha/static/media/rapidapi.c3e6fe482a0f2f2bf2f0.png",
     "static/media/apollo.png": "/Portfolio-Ishan-Wijesingha/static/media/apollo.9c2050eab134d5e8c743.png",
     "static/media/webpack.png": "/Portfolio-Ishan-Wijesingha/static/media/webpack.11663f12f6ecc7640dca.png",
     "static/media/mongo.png": "/Portfolio-Ishan-Wijesingha/static/media/mongo.940824112db2f1788f28.png",
     "static/media/javascript.png": "/Portfolio-Ishan-Wijesingha/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio-Ishan-Wijesingha/index.html",
-    "main.8b2511bf.css.map": "/Portfolio-Ishan-Wijesingha/static/css/main.8b2511bf.css.map",
-    "main.494a1417.js.map": "/Portfolio-Ishan-Wijesingha/static/js/main.494a1417.js.map"
+    "main.e358828e.css.map": "/Portfolio-Ishan-Wijesingha/static/css/main.e358828e.css.map",
+    "main.6ed23d70.js.map": "/Portfolio-Ishan-Wijesingha/static/js/main.6ed23d70.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b2511bf.css",
-    "static/js/main.494a1417.js"
+    "static/css/main.e358828e.css",
+    "static/js/main.6ed23d70.js"
   ]
 }
