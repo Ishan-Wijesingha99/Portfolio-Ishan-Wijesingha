@@ -13,7 +13,12 @@ export const About = function() {
                     </div>
 
                     <p className="text-xl mt-12 text-justify">
-                        I can work as a frontend developer using React JS, Redux, Redux Toolkit, or just plain ES6 JavaScript. I can also work end-to-end as a full stack developer using the MERN Stack (MongoDB, Mongoose ODM, Express JS, React JS, Node JS). I've created multiple business-level full stack applications using React and MERN.
+                        I can work as a frontend developer using React JS, Redux, Redux Toolkit, or just plain ES6 JavaScript. I can also work end-to-end as a full stack developer using the MERN Stack (MongoDB, Mongoose ODM, Express JS, React JS, Node JS).
+                    </p>
+                    <br />
+
+                    <p className="text-xl text-justify">
+                        I am also very proficient with GraphQL and Apollo, allowing me to create MERNG applications. I can also use MySQL and Sequelize ORM. I've created multiple business-level full stack and frontend applications.
                     </p>
                     <br />
 
@@ -28,7 +33,7 @@ export const About = function() {
                     <br />
 
                     <p className="text-xl text-justify">
-                        I have used many technologies (most of which are listed below), but I also have the passion to learn any new technology, and because I am a quick learner, I can learn it fast.
+                        I have used many technologies, but I also have the passion to learn new languages and frameworks, and because I am a quick learner, I can learn them fast.
                     </p>
                     <br />
 

@@ -23,12 +23,14 @@ import materialize from '../assets/materialize.png'
 import heroku from '../assets/heroku.png'
 import figma from '../assets/figma.png'
 import mongoose from '../assets/mongoose.png'
-
 import redux from '../assets/redux.png'
 import jwt from '../assets/jwt.png'
 import graphql from '../assets/graphql.png'
 import apollo from '../assets/apollo.png'
 import webpack from '../assets/webpack.png'
+import semanticui from '../assets/semanticui.png'
+import rapidapi from '../assets/rapidapi.png'
+import momentjs from '../assets/momentjs.png'
 
 
 
@@ -203,7 +205,27 @@ export const Experience = function() {
             title: 'Postman',
             style: 'shadow-orange-600'
         },
+        {
+            id: 29,
+            src: semanticui,
+            title: 'Semantic UI',
+            style: 'shadow-teal-300'
+        },
+        {
+            id: 30,
+            src: momentjs,
+            title: 'Moment',
+            style: 'shadow-teal-700'
+        },
+        {
+            id: 31,
+            src: rapidapi,
+            title: 'RapidAPI',
+            style: 'shadow-sky-900'
+        },
     ]
+
+
 
     return (
         <div name="experience" className="bg-gradient-to-b from-gray-800 to-black w-full py-32">
